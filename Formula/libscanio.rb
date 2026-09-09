@@ -1,24 +1,24 @@
 class Libscanio < Formula
   desc "Scan huge CSV files without loading them into memory"
   homepage "https://github.com/melihbirim/libscanio"
-  version "0.2.1"
+  version "0.2.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/melihbirim/libscanio/releases/download/v0.2.1/scanio-macos-aarch64.tar.gz"
-      sha256 "273b024fc4eaf5ab4b4a201f2630324cccbe3ad1ac0c4f8c92df57a6c5142272"
+      url "https://github.com/melihbirim/libscanio/releases/download/v0.2.2/scanio-macos-aarch64.tar.gz"
+      sha256 "e1e5284422bd2dd1d6a9047418d10d6733a70b8d62bad20643bd000d80bbf408"
     end
     on_intel do
-      url "https://github.com/melihbirim/libscanio/releases/download/v0.2.1/scanio-macos-x86_64.tar.gz"
-      sha256 "32e523cff7ef7541c216b59775297976f886dabf0d82438e9b4cbabcd9e5adcb"
+      url "https://github.com/melihbirim/libscanio/releases/download/v0.2.2/scanio-macos-x86_64.tar.gz"
+      sha256 "853316f110b9cbe080a581bf79bb5f86363c8495b696f89bc906b75dd2883048"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/melihbirim/libscanio/releases/download/v0.2.1/scanio-linux-x86_64.tar.gz"
-      sha256 "3434a6893abcdcdb5b3b91bc38035c47b8cde5e3a2f123812fb48f6422b5105b"
+      url "https://github.com/melihbirim/libscanio/releases/download/v0.2.2/scanio-linux-x86_64.tar.gz"
+      sha256 "8a04e27b41b9cbc5a428c74a6cf195c0cb1c0b3564070a50916f7c7a9541f485"
     end
   end
 
